@@ -7,7 +7,7 @@ init()
 
 def countdown():
     for i in range(5, 0, -1):
-        print(colored(str(i), 'blue'))  # 'blue' renk tonunu kullanın
+        print(colored(str(i), 'blue'))  
         time.sleep(1)
     print(colored("Welcome to Z1s Scripts", 'blue'))
     time.sleep(1)
